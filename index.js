@@ -3,6 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
+  console.log("Someone just visited the homepage!");
   res.send("Welcome to Bright’s Deployed App — my-business-web-app!");
 });
 
